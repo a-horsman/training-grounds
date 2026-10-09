@@ -23,10 +23,10 @@
   </div>
 
   <header class="site-header">
-    <a class="logo" href="/" aria-label="Training Grounds home">
-      <img src="/images/training_grounds1_text_white.png" alt="">
-      <img class="logo-tg" src="/images/training_grounds_tg_red.png" alt="">
-      <img src="/images/training_grounds2_text_white.png" alt="">
+    <a class="logo" href="index.html" aria-label="Training Grounds home">
+      <img src="https://bellinghamtraininggrounds.com/images/training_grounds1_text_white.png" alt="">
+      <img class="logo-tg" src="https://bellinghamtraininggrounds.com/images/training_grounds_tg_red.png" alt="">
+      <img src="https://bellinghamtraininggrounds.com/images/training_grounds2_text_white.png" alt="">
     </a>
     <div class="tagline">
       <span>Bellingham · Burlington</span>
@@ -40,12 +40,12 @@
       MENU
     </button>
     <ul class="nav-list" id="nav-list">
-      <li><a href="/Memberships">MEMBERSHIPS</a></li>
-      <li><a href="/Trainers">TRAINERS</a></li>
-      <li><a href="/Equipment">EQUIPMENT</a></li>
+      <li><a href="https://bellinghamtraininggrounds.com/Memberships">MEMBERSHIPS</a></li>
+      <li><a href="https://bellinghamtraininggrounds.com/Trainers">TRAINERS</a></li>
+      <li><a href="https://bellinghamtraininggrounds.com/Equipment">EQUIPMENT</a></li>
       <li><a class="nav-highlight" href="#locations">LOCATIONS</a></li>
-      <li><a href="/About">ABOUT US</a></li>
-      <li><a href="/Join">JOIN</a></li>
+      <li><a href="https://bellinghamtraininggrounds.com/About">ABOUT US</a></li>
+      <li><a href="https://bellinghamtraininggrounds.com/Join">JOIN</a></li>
     </ul>
   </nav>
 
@@ -54,8 +54,8 @@
     <section class="hero" aria-label="Featured">
       <div class="carousel" data-carousel>
         <div class="slide slide--announce is-active" role="group" aria-roledescription="slide" aria-label="1 of 3">
-          <!-- TODO: replace with Burlington storefront photo -->
-          <img src="/images/burlington-storefront.jpg" alt="" onerror="this.remove()">
+          <!-- TODO: swap for a Burlington storefront photo when available -->
+          <img src="https://bellinghamtraininggrounds.com/images/Home1.jpg" alt="">
           <div class="slide-overlay">
             <span class="badge">NEW LOCATION</span>
             <h1>TWO GYMS.<br>ONE STANDARD.</h1>
@@ -67,11 +67,10 @@
           </div>
         </div>
         <div class="slide" role="group" aria-roledescription="slide" aria-label="2 of 3">
-          <!-- TODO: your existing storefront video slide goes here -->
-          <div class="photo-ph" style="width:100%">[Existing slide: Bellingham storefront video]</div>
+          <video src="https://bellinghamtraininggrounds.com/videos/training_grounds.mp4" poster="https://bellinghamtraininggrounds.com/images/training_grounds_video_thumbnail.jpg" muted loop playsinline preload="none" aria-label="Training Grounds Bellingham storefront"></video>
         </div>
         <div class="slide" role="group" aria-roledescription="slide" aria-label="3 of 3">
-          <img src="/images/Home2.jpg" alt="Rows of dumbbells on the gym floor">
+          <video src="https://bellinghamtraininggrounds.com/videos/training_grounds_members.mp4" poster="https://bellinghamtraininggrounds.com/images/training_grounds_members_thumbnail.jpg" muted loop playsinline preload="none" aria-label="Training Grounds members working out"></video>
         </div>
         <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Previous slide" data-prev>&#8249;</button>
         <button class="carousel-btn carousel-btn--next" type="button" aria-label="Next slide" data-next>&#8250;</button>
@@ -89,7 +88,7 @@
 
         <div class="location-grid">
           <article class="location-card">
-            <img class="card-img" src="/images/Home2.jpg" alt="Inside Training Grounds Bellingham">
+            <img class="card-img" src="https://bellinghamtraininggrounds.com/images/Home2.jpg" alt="Inside Training Grounds Bellingham">
             <div class="card-body">
               <div>
                 <span class="eyebrow">THE ORIGINAL</span>
@@ -107,7 +106,7 @@
                 <li>Saunas</li>
               </ul>
               <div class="btn-row">
-                <a class="btn btn--solid btn--sm" href="/Join">JOIN BELLINGHAM</a>
+                <a class="btn btn--solid btn--sm" href="https://bellinghamtraininggrounds.com/Join">JOIN BELLINGHAM</a>
                 <a class="btn btn--ghost btn--sm" href="https://maps.google.com/?q=1524+Birchwood+Ave+Bellingham+WA" target="_blank" rel="noopener">DIRECTIONS</a>
               </div>
             </div>
@@ -115,7 +114,8 @@
 
           <article class="location-card location-card--new">
             <span class="badge">NOW OPEN</span>
-            <div class="card-img photo-ph">[Photo: Burlington gym floor]</div>
+            <!-- TODO: swap for a Burlington interior photo when available -->
+            <img class="card-img" src="https://bellinghamtraininggrounds.com/images/training_grounds_members_thumbnail.jpg" alt="Training Grounds gym floor">
             <div class="card-body">
               <div>
                 <span class="eyebrow eyebrow--red">NEW LOCATION</span>
@@ -123,7 +123,7 @@
               </div>
               <div class="card-info">
                 <span>[Street address], Burlington, WA</span>
-                <a href="tel:+1XXXXXXXXXX">[Burlington phone]</a>
+                <span>[Burlington phone]</span>
                 <span>Members: 24/7 · Staffed: [staffed hours]</span>
               </div>
               <ul class="tags">
@@ -133,7 +133,7 @@
               </ul>
               <div class="btn-row">
                 <a class="btn btn--solid btn--sm" href="burlington.html">VISIT BURLINGTON</a>
-                <a class="btn btn--ghost btn--sm" href="/Join">JOIN BURLINGTON</a>
+                <a class="btn btn--ghost btn--sm" href="https://bellinghamtraininggrounds.com/Join">JOIN BURLINGTON</a>
               </div>
             </div>
           </article>
@@ -146,17 +146,26 @@
       <div class="split-text bg-light">
         <h2>MEMBERSHIPS</h2>
         <p>We offer 24/7 access for members, and staffed hours for day passes and sign-ups. <strong>Now at two locations — [one membership for both gyms / choose a home gym].</strong></p>
-        <a class="outline-link outline-link--red" href="/Memberships">SEE ALL MEMBERSHIPS</a>
+        <a class="outline-link outline-link--red" href="https://bellinghamtraininggrounds.com/Memberships">SEE ALL MEMBERSHIPS</a>
       </div>
-      <div class="split-media"><img src="/images/Home2.jpg" alt="Dumbbell rack"></div>
+      <div class="split-media"><img src="https://bellinghamtraininggrounds.com/images/Home2.jpg" alt="Dumbbell rack"></div>
     </section>
 
     <section class="split split--media-first">
-      <div class="split-media photo-ph">[Your existing trainer photo grid]</div>
+      <div class="split-media trainer-grid">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_kyle_osborne.jpg?v=1" alt="Kyle Osborne" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_taylor_wolanski2.jpg?v=1" alt="Taylor Wolanski" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_ben_leonard.jpg?v=1" alt="Ben Leonard" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_jonah_bolin.jpg?v=1" alt="Jonah Bolin" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_ryan_belsito.jpg?v=1" alt="Ryan Belsito" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_nicole_dawn.jpg?v=1" alt="Nicole Dawn" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_chris_root.jpg?v=1" alt="Chris Root" loading="lazy">
+        <img src="https://bellinghamtraininggrounds.com/images/trainers_mason_laning.jpg?v=1" alt="Mason Laning" loading="lazy">
+      </div>
       <div class="split-text bg-gray">
         <h2>TRAINERS</h2>
         <p>Our trainers are experienced, knowledgeable, and excited to work with you! They have affordable rates and flexible schedules. Consultations are free — in Bellingham and Burlington.</p>
-        <a class="outline-link outline-link--white" href="/Trainers">SEE ALL TRAINERS</a>
+        <a class="outline-link outline-link--white" href="https://bellinghamtraininggrounds.com/Trainers">SEE ALL TRAINERS</a>
       </div>
     </section>
 
@@ -164,22 +173,22 @@
       <div class="split-text bg-white">
         <h2>EQUIPMENT</h2>
         <p>If you want it, we got it. Equipment for bodybuilding, Olympic weightlifting, powerlifting, basketball, boxing/MMA, strongman, athletic training, general fitness, and locker rooms/showers/saunas.</p>
-        <a class="outline-link outline-link--red" href="/Equipment">SEE ALL EQUIPMENT</a>
+        <a class="outline-link outline-link--red" href="https://bellinghamtraininggrounds.com/Equipment">SEE ALL EQUIPMENT</a>
       </div>
-      <div class="split-media photo-ph">[Your existing equipment photo]</div>
+      <div class="split-media"><img src="https://bellinghamtraininggrounds.com/images/Home1.jpg" alt="Squat racks" loading="lazy"></div>
     </section>
 
     <section class="band">
       <h2>ABOUT US</h2>
       <p>We're a gym you come to with a purpose. Now in two cities.</p>
-      <a class="outline-link outline-link--white" href="/About">SEE ALL ABOUT US</a>
+      <a class="outline-link outline-link--white" href="https://bellinghamtraininggrounds.com/About">SEE ALL ABOUT US</a>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-grid">
       <div class="footer-col">
-        <img src="/images/training_grounds_tg_red.png" alt="">
+        <img src="https://bellinghamtraininggrounds.com/images/training_grounds_tg_red.png" alt="">
         <strong>Training Grounds Bellingham</strong>
         <span>1524 Birchwood Ave</span>
         <span>Bellingham, WA</span>
@@ -190,7 +199,7 @@
         <strong>Training Grounds Burlington</strong>
         <span>[Street address]</span>
         <span>Burlington, WA</span>
-        <a href="tel:+1XXXXXXXXXX">[Burlington phone]</a>
+        <span>[Burlington phone]</span>
       </div>
       <div class="footer-col footer-col--person">
         <strong>Dani Schemm</strong>
@@ -206,12 +215,12 @@
       </div>
     </div>
     <nav class="footer-nav" aria-label="Footer">
-      <a href="/Memberships">Memberships</a>
-      <a href="/Trainers">Trainers</a>
-      <a href="/Equipment">Equipment</a>
+      <a href="https://bellinghamtraininggrounds.com/Memberships">Memberships</a>
+      <a href="https://bellinghamtraininggrounds.com/Trainers">Trainers</a>
+      <a href="https://bellinghamtraininggrounds.com/Equipment">Equipment</a>
       <a href="#locations">Locations</a>
-      <a href="/About">About Us</a>
-      <a href="/Join">Join</a>
+      <a href="https://bellinghamtraininggrounds.com/About">About Us</a>
+      <a href="https://bellinghamtraininggrounds.com/Join">Join</a>
     </nav>
   </footer>
 

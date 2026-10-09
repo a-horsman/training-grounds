@@ -142,6 +142,8 @@ a:hover { color: var(--red-darker); }
 .split-text p { margin: 0; max-width: 400px; font-size: 14px; line-height: 1.55; }
 .split-media { min-height: 360px; }
 .split-media img { width: 100%; height: 100%; object-fit: cover; }
+.trainer-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.trainer-grid img { aspect-ratio: 1 / 1; height: auto; }
 .bg-light { background: var(--light); color: var(--slate); }
 .bg-gray { background: var(--gray); color: #fff; }
 .bg-white { background: #fff; color: var(--slate); }
